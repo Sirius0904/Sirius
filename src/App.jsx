@@ -25,6 +25,7 @@ const styles = {
     color: "#fff",
     marginTop: "120px",
     padding: "10px",
+    cursor: "pointer",
   },
   header: {
     position: "fixed",
@@ -45,10 +46,11 @@ const styles = {
     alignItems: "center",
     fontSize: "17px",
     fontWeight: "300",
+    cursor: "pointer",
     /*кошелек справа*/
   },
 };
-const App = ({ isServerInfo }) => {
+const App = () => {
   const { isWeb3Enabled, enableWeb3, isAuthenticated, isWeb3EnableLoading } =
     useMoralis();
 
@@ -70,8 +72,7 @@ const App = ({ isServerInfo }) => {
             <TokenPrice
               address="0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
               chain="eth"
-              image="https://sun2.velcom-by-minsk.userapi.com/impf/PJSMJOBRSyM4RZ_Z9BqpApCOpI4t7gjv1Z28EQ/EEXO3V7I6Lc.jpg?size=1117x938&quality=95&sign=d8ceac8f726b6be07a871e50479b4a98&type=album"
-              size="60px"
+              size="40px"
             />
             {/*лого токена*/}
             <NativeBalance />
@@ -100,10 +101,17 @@ const App = ({ isServerInfo }) => {
 /* работа с логотипом */
 export const Logo = () => (
   <div style={{ display: "flex" }}>
+    <img
+      src="https://sun2.velcom-by-minsk.userapi.com/impf/PJSMJOBRSyM4RZ_Z9BqpApCOpI4t7gjv1Z28EQ/EEXO3V7I6Lc.jpg?size=1117x938&quality=95&sign=d8ceac8f726b6be07a871e50479b4a98&type=album"
+      alt="Logo"
+      width="105"
+      height="64"
+    />
+
     <svg
       width="105"
       height="70"
-      viewBox="-3 0 130 60"
+      viewBox="0 0 130 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

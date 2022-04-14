@@ -17,11 +17,11 @@ const styles = {
     alignItems: "center",
     width: "fit-content",
     borderRadius: "12px",
-    backgroundColor: "rgb(244, 244, 244)",
+    backgroundColor: "rgb(204, 222, 243)",
     cursor: "pointer",
   },
   text: {
-    color: "#21BF96",
+    color: "#000000",
   },
   connector: {
     alignItems: "center",
@@ -36,7 +36,7 @@ const styles = {
   },
   icon: {
     alignSelf: "center",
-    fill: "rgb(40, 13, 95)",
+    fill: "rgb(62, 39, 213)",
     flexShrink: "0",
     marginBottom: "8px",
     height: "30px",

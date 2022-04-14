@@ -4,6 +4,12 @@ export const networkConfigs = {
     blockExplorerUrl: "https://etherscan.io/",
     wrapped: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
   },
+  "0x539": {
+    chainName: "Local Chain",
+    currencyName: "ETH",
+    currencySymbol: "ETH",
+    rpcUrl: "http://127.0.0.1:7545",
+  },
   "0x3": {
     currencySymbol: "ETH",
     blockExplorerUrl: "https://ropsten.etherscan.io/",
@@ -19,20 +25,6 @@ export const networkConfigs = {
   "0x5": {
     currencySymbol: "ETH",
     blockExplorerUrl: "https://goerli.etherscan.io/",
-  },
-  "0x539": {
-    chainName: "Local Chain",
-    currencyName: "ETH",
-    currencySymbol: "ETH",
-    rpcUrl: "http://127.0.0.1:7545",
-  },
-  "0xa86a": {
-    chainId: 43114,
-    chainName: "Avalanche Mainnet",
-    currencyName: "AVAX",
-    currencySymbol: "AVAX",
-    rpcUrl: "https://api.avax.network/ext/bc/C/rpc",
-    blockExplorerUrl: "https://cchain.explorer.avax.network/",
   },
   "0x38": {
     chainId: 56,
@@ -51,6 +43,22 @@ export const networkConfigs = {
     rpcUrl: "https://data-seed-prebsc-1-s1.binance.org:8545/",
     blockExplorerUrl: "https://testnet.bscscan.com/",
   },
+  "0x13881": {
+    chainId: 80001,
+    chainName: "Mumbai",
+    currencyName: "MATIC",
+    currencySymbol: "MATIC",
+    rpcUrl: "https://rpc-mumbai.matic.today/",
+    blockExplorerUrl: "https://mumbai.polygonscan.com/",
+  },
+  "0xa86a": {
+    chainId: 43114,
+    chainName: "Avalanche Mainnet",
+    currencyName: "AVAX",
+    currencySymbol: "AVAX",
+    rpcUrl: "https://api.avax.network/ext/bc/C/rpc",
+    blockExplorerUrl: "https://cchain.explorer.avax.network/",
+  },
   "0x89": {
     chainId: 137,
     chainName: "Polygon Mainnet",
@@ -59,14 +67,6 @@ export const networkConfigs = {
     rpcUrl: "https://rpc-mainnet.maticvigil.com/",
     blockExplorerUrl: "https://explorer-mainnet.maticvigil.com/",
     wrapped: "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
-  },
-  "0x13881": {
-    chainId: 80001,
-    chainName: "Mumbai",
-    currencyName: "MATIC",
-    currencySymbol: "MATIC",
-    rpcUrl: "https://rpc-mumbai.matic.today/",
-    blockExplorerUrl: "https://mumbai.polygonscan.com/",
   },
 };
 

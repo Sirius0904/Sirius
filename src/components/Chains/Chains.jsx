@@ -10,8 +10,8 @@ const styles = {
     alignItems: "center",
     height: "42px",
     fontWeight: "500",
-    fontFamily: "Roboto, sans-serif",
-    fontSize: "14px",
+    fontFamily: "serif, sans-serif",
+    fontSize: "15px",
     padding: "0 10px",
   },
   button: {
